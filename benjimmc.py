@@ -38,7 +38,7 @@ class Settings():
     
     spacer = "   "
 
-    modpath = "C:\\Users\\{}\\Documents\\Electronic Arts\\The Sims 4\\Mods\\".format(
+    modpath = "/Users/{}/Documents/Electronic Arts/The Sims 4/Mods/".format(
         os.getlogin()
     )
 

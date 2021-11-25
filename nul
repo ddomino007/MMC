@@ -1,0 +1,6 @@
+SystemExit: 2
+created virtual environment CPython3.7.9.final.0-64 in 248ms
+  creator CPython3Posix(dest=/Users/benji/git/MMC/mods/helloworld, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/benji/Library/Application Support/virtualenv)
+    added seed packages: pip==21.3.1, setuptools==58.3.0, wheel==0.37.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
