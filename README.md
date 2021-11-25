@@ -6,6 +6,7 @@ MatroSka Mod Compiler for .ts4script files
 
 ## Requirements
 * Have Python 3.7 installed and set as default.
+* for Python on OSX, you of course need to have xcode cli tools installed. run "xcode-select --install" in terminal and follow the prompts to install them
 ### Running from Source
 ```
 pip install virtualenv colorama 
