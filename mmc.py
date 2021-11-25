@@ -17,8 +17,8 @@ logo = ('''
 
 os.system('title MMC [Version 0.2]')
 
-def cls():
-    os.system('cls')
+def clear():
+    os.system('clear')
 
 def line():
     print("  ","═"*86)
@@ -39,7 +39,7 @@ class Settings():
     
     spacer = "   "
 
-    modpath = "C:\\Users\\{}\\Documents\\Electronic Arts\\The Sims 4\\Mods\\".format(
+    modpath = "/users/{}/Documents/Electronic Arts/The Sims 4/Mods".format(
         os.getlogin()
     )
 
@@ -238,7 +238,7 @@ def CreateMod(mod_name, _template):
     pass
 
 
-cls()
+clear()
 print(logo)
 print("   ╔═════════════════════════════════════════╦══════════════════════════════════════════╗")
 print("   ║    Welcome to MatroSka Mod Compiler!    ║  Changelog:                              ║▓")
@@ -262,7 +262,7 @@ os.system("pause >> nul")
 #! Main loop here
 
 while 1:
-    cls()
+    clear()
     print(logo)
     print(Fore.CYAN+ Settings.spacer + "Debug Build Mode: {}".format(Settings.debug))
     line()
