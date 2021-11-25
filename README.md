@@ -1,4 +1,5 @@
 # MMC
+# MacOS Friendly edits POC	
 ## Current Version: 0.2
 MatroSka Mod Compiler for .ts4script files  
 ![MMC Logo](/mmc_icon_small.png)
